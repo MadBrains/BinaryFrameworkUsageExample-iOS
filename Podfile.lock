@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (5.5.0)
+  - BinaryFrameworkExample (0.0.1):
+    - Alamofire (= 5.5.0)
+    - RealmSwift (= 10.25.0)
   - Realm (10.25.0):
     - Realm/Headers (= 10.25.0)
   - Realm/Headers (10.25.0)
@@ -7,20 +10,22 @@ PODS:
     - Realm (= 10.25.0)
 
 DEPENDENCIES:
-  - Alamofire
-  - RealmSwift
+  - BinaryFrameworkExample
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Realm
     - RealmSwift
+  https://github.com/MadBrains/BinaryFrameworkPodspec-iOS.git:
+    - BinaryFrameworkExample
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  BinaryFrameworkExample: c9c9b0ff4abb03fbffd042caceef49480b847182
   Realm: 22a82aaa0e73f3483e3a6df32549c4c5cd34aa63
   RealmSwift: c2a635212400923edd3f828b8a37d55d3eb31863
 
-PODFILE CHECKSUM: f13721df419f5f00375226cd1cff37a15163f9b7
+PODFILE CHECKSUM: 8fba77a332054add9725847622d599a53837ecd5
 
 COCOAPODS: 1.10.2

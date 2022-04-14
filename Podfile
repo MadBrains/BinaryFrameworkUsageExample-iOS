@@ -2,13 +2,13 @@ platform :ios, '12.1'
 inhibit_all_warnings!
 
 source 'https://github.com/cocoapods/specs.git'
+source 'https://github.com/MadBrains/BinaryFrameworkPodspec-iOS.git'
 
 target 'BinaryFrameworkUsageExample' do
   
   use_frameworks!
 
-  pod 'Alamofire'
-  pod 'RealmSwift'
+  pod 'BinaryFrameworkExample'
   
 end
 
